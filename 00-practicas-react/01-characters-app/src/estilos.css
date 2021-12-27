@@ -1,0 +1,7 @@
+.div-text{
+    position: absolute;
+}
+.desvanecer{
+    cursor: pointer;
+    opacity: 0.6;
+}

@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #EAF2E3;
+}
+
+.form{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    padding: 15px;
+    margin: 250px 40px 0 auto;
+    max-width: 350px;
+    width: 300px;
+}
+
+.form-2{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    margin: 250px auto 0 0;
+    padding: 15px;
+    width: 300px;
+}
+
+.form > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form > h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-2{
+    text-align: center;
+}
+
+.form > form > input{
+    border: 0;
+    border-bottom: 2px grey solid;
+    width: 100%;
+    margin: 5px 10px;
+    max-width: 250px;
+    transform: 0.3s ease-in-out;
+
+}
+
+.form > form > input:focus{
+    outline: none;
+}
+
+.form > form > input:active{
+    outline: none;
+}
+
+.form > form > button{
+    background-color:#66D7D1 ;
+    border: 0;
+    border-radius: 5px;
+    color: #EAF2E3;
+    height: 30px;
+    margin: 5px 10px;
+    max-width: 250px;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+}
+
+.form > form > button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: #66D7D1;
+    font-size: 1.2em;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.users-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.user-box{
+    background-color: #66D7D1;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    height: 75px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    overflow: visible;
+    width: 90%;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    text-align: left;
+
+}
+
+.btn-delete{
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.btn-delete > img{
+    width: 100%;
+}
+
